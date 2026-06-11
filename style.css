@@ -20,6 +20,18 @@ body{
     line-height:1.6;
 }
 
+body.light{
+    --bg:#f8fafc;
+    --card:#ffffff;
+    --accent:#0ea5e9;
+    --text:#0f172a;
+    --muted:#475569;
+}
+
+body{
+    transition:0.3s;
+}
+
 header{
     min-height:30vh;
     display:flex;
